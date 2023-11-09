@@ -278,13 +278,13 @@ img{
         width: 300px;
         max-width: 300px;
     } 
-    @media (min-width: 100px){
+    @media (max-width: 620px){
         img{
             width: 150px;
             max-width: 150px;
         }
     }
-    @media (min-width: 620px){
+    @media (max-width: 1380px) and (min-width: 620px){
         img{
             width: 200px;
             max-width: 200px;
